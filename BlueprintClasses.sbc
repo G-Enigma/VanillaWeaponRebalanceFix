@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+    <Class>
+    <Id>
+      <TypeId>BlueprintClassDefinition</TypeId>
+      <SubtypeId>Ammo</SubtypeId>
+    </Id>
+    <DisplayName>DisplayName_BlueprintClass_Ammo</DisplayName>
+    <Icon>Textures\GUI\Icons\buttons\ammo.dds</Icon>
+    <HighlightIcon>Textures\GUI\Icons\buttons\ammo_highlight.dds</HighlightIcon>
+    <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+  </Class>
+  </BlueprintClasses>
+  <BlueprintClassEntries>
+    <Entry Class="Component" BlueprintSubtypeId="NATO_5p56x45mm_Thermo" />
+    <Entry Class="Component" BlueprintSubtypeId="NATO_5p56x45mm_Expansion" />
+    <Entry Class="Ammo" BlueprintSubtypeId="NATO_5p56x45mm_Thermo" />
+    <Entry Class="Ammo" BlueprintSubtypeId="NATO_5p56x45mm_Expansion" />
+  </BlueprintClassEntries>
+</Definitions>
